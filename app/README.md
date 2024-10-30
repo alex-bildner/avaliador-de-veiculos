@@ -1,99 +1,74 @@
-# Título do projeto
+# Avaliador de Veículos
 
-Um parágrafo da descrição do projeto vai aqui
+Este é um aplicativo Android desenvolvido para gerenciar e avaliar veículos, permitindo registrar informações detalhadas e capturar múltiplas imagens para documentação de avaliações. O projeto inclui funcionalidades como armazenamento local das avaliações, acesso ao histórico de avaliações e suporte ao modo escuro. Recentemente, foram implementadas melhorias na interface do usuário para melhor visualização das fotos e tratamento de erros na seleção de imagens.
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para desenvolvimento e testes.
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Para clonar e executar o projeto, você precisará de:
 
-```
-Dar exemplos
-```
+- Android Studio (versão recomendada: Arctic Fox ou mais recente)
+- SDK mínimo: Android 7.0 (API 24)
+- Dependências: O projeto usa bibliotecas como Glide para carregamento de imagens e Permission Handler para gerenciar permissões de câmera e galeria.
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+1. Clone o repositório em sua máquina local:
 
-Diga como essa etapa será:
+git clone https://github.com/alex-bildner/avaliador-de-veiculos.git
 
-```
-Dar exemplos
-```
+2. Abra o projeto no Android Studio.
 
-E repita:
+3. - Sincronize o projeto para instalar as dependências necessárias:
 
-```
-Até finalizar
-```
+- Abra o arquivo build.gradle (Module: app) e verifique se as dependências são carregadas corretamente.
+Caso seja solicitado, clique em "Sync Now" no topo da tela para sincronizar.
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+4. Execute o projeto em um emulador Android ou dispositivo físico.
 
-## ⚙️ Executando os testes
+### 🔩 Testes de ponta a ponta
 
-Explicar como executar os testes automatizados para este sistema.
+VVerificar a funcionalidade principal, como a captura e seleção de imagens, preenchimento dos campos, armazenamento no histórico e exibição das informações salvas.
 
-### 🔩 Analise os testes de ponta a ponta
+Novas funcionalidades incluem:
 
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
+- Mensagens de "Sem imagem" e ocultação do botão de visualização quando não há fotos.
+- Tratamento de erros ao abrir imagens.
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+Para deploy do aplicativo, siga o processo padrão de exportação de APK no Android Studio:
+
+1. Vá em Build > Generate Signed Bundle / APK.
+
+2. Siga as instruções para gerar uma versão assinada do APK.
+
+3. Publique o APK no Google Play Console (caso já possua conta de desenvolvedor).
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+- Kotlin - Linguagem de programação principal
+- Android SDK - Framework para desenvolvimento Android
+- Glide - Carregamento de imagens
+- Permission Handler - Gerenciamento de permissões para câmera e galeria
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+![Status](https://img.shields.io/badge/status-finalizado-green)
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+* **Alex Bildner** - *Desenvolvedor principal e responsável pela documentação* - [alex-bildner](https://github.com/alex-bildner)
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto não possui uma licença pública no momento. Uma licença pode ser adicionada em versões futuras.
 
 ## 🎁 Expressões de gratidão
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+* Grato pela atenção!
+* Dê suporte ao projeto com feedback ou sugestões!
