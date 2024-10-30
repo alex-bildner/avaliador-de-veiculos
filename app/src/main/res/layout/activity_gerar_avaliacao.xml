@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/placaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Placa"
+        android:backgroundTint="#6200EE"
+        android:textColor="@color/textColor"
+        android:padding="12dp"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="12dp"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/chassiInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chassi"
+        android:backgroundTint="#6200EE"
+        android:textColor="@color/textColor"
+        android:padding="12dp"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="12dp"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/marcaModeloInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca/Modelo"
+        android:backgroundTint="#6200EE"
+        android:textColor="@color/textColor"
+        android:padding="12dp"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="12dp"
+        android:background="#e0e0e0" />
+
+    <Button
+        android:id="@+id/tirarFotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tirar Foto"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/selecionarFotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Foto"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonSalvarAvaliacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Avaliação"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#388E3C"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/lanternaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ligar Lanterna" />
+
+    </LinearLayout>
+</LinearLayout>

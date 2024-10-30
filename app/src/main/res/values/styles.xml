@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Tema da splash screen sem ActionBar -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
