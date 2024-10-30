@@ -6,6 +6,9 @@ data class Avaliacao(
     val chassi: String,
     val marcaModelo: String,
     val dataRegistro: String,
-    val imagemUri: String
+    val fotoPlaca: String,
+    val fotoChassi: String,
+    val fotoHodometro: String,
+    val fotoMotor: String
 )
 

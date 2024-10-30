@@ -5,23 +5,97 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/imagemImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placa:"
+        android:layout_marginBottom="4dp"/>
 
     <TextView
         android:id="@+id/textPlaca"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chassi:"
+        android:layout_marginBottom="4dp"/>
 
     <TextView
         android:id="@+id/textChassi"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca Modelo:"
+        android:layout_marginBottom="4dp"/>
 
     <TextView
         android:id="@+id/textMarcaModelo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewFotoPlaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Foto Placa:"/>
+
+    <Button
+        android:id="@+id/buttonVisualizarPlaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Visualizar"/>
+
+    <TextView
+        android:id="@+id/textViewFotoChassi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Foto Chassi:"/>
+
+    <Button
+        android:id="@+id/buttonVisualizarChassi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Visualizar"/>
+
+    <TextView
+        android:id="@+id/textViewFotoHodometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Foto Hodômetro:"/>
+
+    <Button
+        android:id="@+id/buttonVisualizarHodometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Visualizar"/>
+
+    <TextView
+        android:id="@+id/textViewFotoMotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Foto Motor:"/>
+
+    <Button
+        android:id="@+id/buttonVisualizarMotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualizar"/>
+
 </LinearLayout>
