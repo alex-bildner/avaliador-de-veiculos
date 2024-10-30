@@ -1,6 +1,6 @@
 # Avaliador de Veículos
 
-Este é um aplicativo Android desenvolvido para gerenciar e avaliar veículos, permitindo registrar informações detalhadas e capturar múltiplas imagens para documentação de avaliações. O projeto inclui funcionalidades como armazenamento local das avaliações, acesso ao histórico de avaliações e suporte ao modo escuro.
+Este é um aplicativo Android desenvolvido para gerenciar e avaliar veículos, permitindo registrar informações detalhadas e capturar múltiplas imagens para documentação de avaliações. O projeto inclui funcionalidades como armazenamento local das avaliações, acesso ao histórico de avaliações e suporte ao modo escuro. Recentemente, foram implementadas melhorias na interface do usuário para melhor visualização das fotos e tratamento de erros na seleção de imagens.
 
 ## 🚀 Começando
 
@@ -31,7 +31,12 @@ Caso seja solicitado, clique em "Sync Now" no topo da tela para sincronizar.
 
 ### 🔩 Testes de ponta a ponta
 
-Verificar a funcionalidade principal, como a captura e seleção de imagens, preenchimento dos campos, armazenamento no histórico e exibição das informações salvas.
+VVerificar a funcionalidade principal, como a captura e seleção de imagens, preenchimento dos campos, armazenamento no histórico e exibição das informações salvas.
+
+Novas funcionalidades incluem:
+
+- Mensagens de "Sem imagem" e ocultação do botão de visualização quando não há fotos.
+- Tratamento de erros ao abrir imagens.
 
 ## 📦 Implantação
 
@@ -53,7 +58,7 @@ Para deploy do aplicativo, siga o processo padrão de exportação de APK no And
 
 ## 📌 Versão
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-finalizado-green)
 
 ## ✒️ Autores
 
